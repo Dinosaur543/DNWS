@@ -211,7 +211,7 @@ namespace DNWS
             }
         }
         ////////////////////////////////////////////////////////////////////////
-        public static void DeleteUser(string name, string password)
+        public static void DeleteUser(string name, string password) //delete user 
         {
             User user = new User();
             user.Name = name;

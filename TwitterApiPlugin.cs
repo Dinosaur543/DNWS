@@ -28,7 +28,7 @@ namespace DNWS
             }
         }
 
-        public List<Following> FollowingAll(string name)
+        public List<Following> FollowingAll(string name) //all following
         {
             using (var context = new TweetContext())
             {
